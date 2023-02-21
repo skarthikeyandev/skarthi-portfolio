@@ -1,0 +1,43 @@
+@mixin display($display) {
+    display:$display;
+}
+
+@mixin width($width) {
+    width:$width;
+}
+
+@mixin max-width($max-width) {
+    max-width:$max-width;
+}
+
+@mixin height($height) {
+    height:$height;
+}
+
+@mixin padding($padding) {
+    padding: $padding;
+}
+
+@mixin margin($margin) {
+    margin: $margin;
+}
+
+@mixin  fontSize($fontSize) {
+    font-size: $fontSize;
+}
+
+@mixin color($color) {
+    color: $color;
+}
+
+@mixin backgroundColor($backgroundColor) {
+    background-color: $backgroundColor;
+}
+
+@mixin textAlign($textAlign) {
+    text-align: $textAlign;
+}
+
+@mixin boxShadow() {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

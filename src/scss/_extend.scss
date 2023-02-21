@@ -1,0 +1,15 @@
+button {
+    @include display(inline-block);
+    @include fontSize(15px);
+    @include padding(0 40px);
+    @include textAlign($center);
+    font-weight: 500;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: $none;
+    border: 1px solid $black;
+    line-height: 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: $upper;
+}

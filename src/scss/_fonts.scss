@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Aveniornextltpro";
+    src: url("../fonts/avenirnextltpro-regular.woff2");
+}
+@font-face {
+    font-family: "Aveniornextltpro-bold";
+    src: url("../fonts/avenirnextltpro-bold.woff2");
+}
+
+@font-face {
+    font-family: "Aveniornextltpro-medium";
+    src: url("../fonts/avenirnextltpro-medium.woff2");
+}
+
+@font-face {
+    font-family: "superiortitle";
+    src: url("../fonts/superiortitle-light.woff2");
+}
+
+$avenirnextltpro:"Aveniornextltpro", Helvetica, sans-serif;
+$avenirnextltpro-bold:"Aveniornextltpro-bold", Helvetica, sans-serif;
+$avenirnextltpro-medium:"Aveniornextltpro-medium", Helvetica, sans-serif;
+$superiortitle:"superiortitle", Helvetica, sans-serif;
