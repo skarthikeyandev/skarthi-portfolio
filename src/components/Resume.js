@@ -24,7 +24,7 @@ const Resume = () => {
                     <div className="timeline">
                         <div className="timebar left">
                             <div className="content">
-                                <span>{resumeSection.companiesyear}</span>
+                                <span>{resumeSection.secondCompanyYear}</span>
                                 {resumeSection.companies.map((item, i) => {
                                     return <ResumeItems key={i} item={item} />;
                                 })}
@@ -32,13 +32,21 @@ const Resume = () => {
                         </div>
                         <div className="timebar right">
                             <div className="content">
+                                <span>{resumeSection.companiesyear}</span>
+                                {resumeSection.GTS.map((item, i) => {
+                                    return <ResumeItems key={i} item={item} />;
+                                })}
+                            </div>
+                        </div>
+                        <div className="timebar left">
+                            <div className="content">
                                 <span>{resumeSection.collegeyear}</span>
                                 {resumeSection.college.map((item, i) => {
                                     return <ResumeItems key={i} item={item} />;
                                 })}
                             </div>
                         </div>
-                        <div className="timebar left">
+                        <div className="timebar right">
                             <div className="content">
                                 <span>{resumeSection.schoolyear}</span>
                                 {resumeSection.school.map((item, i) => {
