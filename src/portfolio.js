@@ -1,8 +1,8 @@
 export const greetings = {
     name: "KARTHI KEYAN",
-    professional: "Aspiring Front End Developer",
-    copyright: "Designed and Developed by Karthikeyan ",
-    copyrightyear: "Copyright © 2022 KS",
+    professional: "Software Developer | Front End Developer | Full Stack Developer",
+    copyright: "Designed and Developed by Karthikeyan",
+    copyrightyear: "Copyright © 2026 KS",
     mediaIcons: [
         {
             "name": "Facebook",
@@ -58,22 +58,22 @@ export const aboutSections = {
     aboutheading: "ABOUT ME",
     shortnam: "KARTHI",
     aboutname: "I'm Karthikeyan",
-    aboutrole: "Front End Developer",
+    aboutrole: "Software Developer",
     profilephoto: "https://drive.google.com/uc?export=view&id=1qNyJ9manyS1h-s4UJJat6_Vet6_OCmu9",
-    description: "I hustle harder than I did yesterday. I was that one quiet child in school who would always be engaged with some coloring pencils, origami papers, or play dough. I loved creating things. And then, I came across something that fascinated me more, Programming! My creative interest drove me into web development, especially front-end. I enjoy creating sites for the web, right from single-paged websites, to complex web applications. I went ahead and learned Full-Stack development and discovered the whole process of how a website is built. I took up internships in organizations and started solving real-world problems that made an impact!"
-};
+    description: "I hustle harder than I did yesterday.\n\nI’ve always been a creator. As a quiet child, I spent hours with coloring pencils, origami paper, and play dough, fascinated by the idea of turning imagination into something real. That same curiosity later led me to discover programming—and I was instantly hooked.\n\nToday, I’m a web developer with a strong passion for front-end development. I love crafting clean, intuitive user experiences, whether it’s a simple single-page website or a complex web application.\n\nWanting to understand how everything fits together, I grew into full-stack development, learning the complete journey of building, scaling, and deploying web applications. Through internships and hands-on projects, I’ve worked on real-world problems and built solutions that create real impact.\n\nI’m constantly learning, building, and pushing myself to be better than yesterday."
+}
 
 export const skillsSections = {
     skills: [{
-        "name": "HTML5",
+        "name": "HTML5, CSS, JAVASCRIPT",
         "level": "html"
     },
     {
-        "name": "CSS3",
+        "name": "Bootstrap, Tailwind CSS",
         "level": "css"
     },
     {
-        "name": "JAVASCRIPT",
+        "name": "Git, GitHub",
         "level": "javascript"
     },
     {
@@ -81,73 +81,30 @@ export const skillsSections = {
         "level": "jquery"
     },
     {
-        "name": "React js",
+        "name": "React js, Vue js",
         "level": "react-js"
     }
     ],
     secondskills: [{
-        "name": "SCSS",
+        "name": "Python",
         "level": "scss"
     },
     {
-        "name": "Bootstrap",
+        "name": "Django",
         "level": "bootstrap"
     },
     {
-        "name": "C",
+        "name": "Node js, Express js",
         "level": "c"
     },
     {
-        "name": "OOPS",
+        "name": "Vitest, Jest, Playwright",
         "level": "oops"
     },
     {
-        "name": "Node js",
+        "name": "Azure DevOps",
         "level": "node-js"
     }
-    ],
-    skillsicons: [
-        {
-            "languageName": "HTML-5",
-            "imageIconUrl": "https://drive.google.com/uc?export=view&id=1hLKLDHigxaBNyua6p9hQfvhYKQyfQ3lt"
-        },
-        {
-            "languageName": "CSS-3",
-            "imageIconUrl": "https://drive.google.com/uc?export=view&id=1xBWKhUg3ZvZu8sHmv5ZeIKr_9eW1PFYA"
-        },
-        {
-            "languageName": "JavaScript",
-            "imageIconUrl": "https://drive.google.com/uc?export=view&id=1cKyNfnmvrl5O2JRK6Azri6HKRZYUQG3F"
-        },
-        {
-            "languageName": "Reactjs",
-            "imageIconUrl": "https://drive.google.com/uc?export=view&id=1Ze-atOtMhGIMyT9cNJZaqlqI0ru_e1mg"
-        },
-        {
-            "languageName": "Nextjs",
-            "imageIconUrl": "https://drive.google.com/uc?export=view&id=1SDlQ2RA1tql-xGe9nfQQVJ-mR3u2eHAH"
-        },
-        {
-            "languageName": "Python",
-            "imageIconUrl": "https://drive.google.com/uc?export=view&id=1vOVjc4gZ6VrUJmQlEBiha-2bs22eh9a0"
-        },
-        {
-            "languageName": "Django",
-            "imageIconUrl": "https://drive.google.com/uc?export=view&id=1F-syFDaRJmdWSbxMN26FH6uTZggeNtFQ"
-        },
-
-        {
-            "languageName": "Redux",
-            "imageIconUrl": "https://drive.google.com/uc?export=view&id=1HBQvjbWqpyEnqygE0ApeT3h8UMXig_YE"
-        },
-        {
-            "languageName": "NPM",
-            "imageIconUrl": "https://drive.google.com/uc?export=view&id=1hLKLDHigxaBNyua6p9hQfvhYKQyfQ3lt"
-        },
-        {
-            "languageName": "GIT",
-            "imageIconUrl": "https://drive.google.com/uc?export=view&id=1hLKLDHigxaBNyua6p9hQfvhYKQyfQ3lt"
-        }
     ]
 }
 
@@ -182,11 +139,12 @@ export const resumeSection = {
     role: "Front End Developer",
     companyname: "Gabriels Technology Solution - Madurai.",
     resumepdf: "https://drive.google.com/file/d/1yEC-JCyXPO8qkrqqot4nA_Bnp8M6FYoZ/view?usp=sharing",
-    companiesyear: "June 2021 - Present",
+    companiesyear: "June 2021 - February 2024",
+    secondCompanyYear: "February 2024 - Present",
     collegeyear: "November 2017 - March 2021",
     schoolyear: "April 2015 - May 2017",
     resume: "See My Resume",
-    companies: [
+    GTS: [
         "Front End Developer",
         "Gabriels Technology Solution - Madurai",
         "Implemented websites, wep applications, and landing pages from concept through deployment.",
@@ -194,6 +152,14 @@ export const resumeSection = {
         "Assessed UX and UI designs for technical feasibility.",
         "Developed standard and ad hoc reports in graph format as required.",
         "Collaborated with product team members to implement new feature developments."
+    ],
+    companies: [
+        "Software Developer",
+        "ANB Systems Private Limited (A DNV Company) - Chennai.",
+        "Developed customer-facing web applications delivering actionable insights for optimizing energy usage.",
+        "Built responsive and scalable UIs using React.js, TypeScript, HTML, CSS, and JavaScript, with robust backend support using Django, Node.js, and Python.",
+        "Collaborated using GitHub and Azure DevOps for version control, sprint planning, and efficient project delivery.",
+        "Worked with SQL Server and PostgreSQL to manage large-scale energy data and ensure data-driven decision-making."
     ],
     college: [
         "Bachelor of Engineering",

@@ -57,14 +57,7 @@ const Skills = () => {
             </section>
             <section className="skills-container">
                 <div className="container">
-                    <span className="heading">Programming Languages</span>
-                    <div className="slider" >
-                        <div className="slide-track">
-                            {skillsSections.skillsicons.map((item, i) => {
-                                return <ImageItems key={i} item={item} />;
-                            })}
-                        </div>
-                    </div>
+                    <span className="heading">Certifications</span>
                 </div>
             </section>
         </>

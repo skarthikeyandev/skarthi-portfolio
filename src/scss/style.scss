@@ -847,38 +847,6 @@ body {
     }
   }
 
-  .slider {
-    @include backgroundColor($light-bg);
-    @include boxShadow();
-    border: $border;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-
-    &::before,
-    &::after {
-      @include white-gradient;
-      content: "";
-      position: absolute;
-      z-index: 2;
-    }
-
-    &::after {
-      right: 0;
-      top: 0;
-      transform: rotateZ(180deg);
-    }
-
-    &::before {
-      left: 0;
-      top: 0;
-    }
-
-    .slide-track {
-      @include display(flex);
-      animation: scroll $animationSpeed linear infinite;
-    }
-  }
 }
 
 .frontend {
